@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/214fab10ef.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="{% static 'images/navbar/logo.png' %}" type="image/x-icon"/>
+    <link rel="stylesheet" href="{% static 'css/location.css' %}">
+    <title>Homepage</title>
+<body>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: antiquewhite;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="{% static 'images/navbar/indexlogo.png' %}" style="max-width: auto; max-height:50px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'stellaris:home' %}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'stellaris:categories' %}">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Delivery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'stellaris:location' %}">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'stellaris:gallery' %}">Gallery</a>
+              </li>
+              </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+  <div class= "divmap">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.400790384315!2d122.04389576533036!3d6.9619576481354715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x325041119b92f6e5%3A0x82d93201a3093541!2sD&#39;Vhine%20treats!5e0!3m2!1sen!2sph!4v1643795550282!5m2!1sen!2sph" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+    </div>
+    <section class="about">
+    <p class="text-center">Contact Us</p>
+    <p class="text-center"><i class="fa-solid fa-phone"></i> 09368346373</p>
+    <p class="text-center"><i class="fa-solid fa-envelope"></i> dvhinetreatscaferestaurant@gmail.com</p>
+    <p class="text-center"><i class="fa-brands fa-chrome"></i> dvhinetreatscafe.com</p>
+  </section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</head>
+</html>
