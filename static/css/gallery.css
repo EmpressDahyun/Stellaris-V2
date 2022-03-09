@@ -1,0 +1,29 @@
+.navbar a
+{
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+}
+
+body 
+{
+    background-color: antiquewhite;
+}
+
+#titletext
+{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.gallery img
+{
+    border: inset;
+    border-width: 10px;
+    border-color: lightcoral;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}

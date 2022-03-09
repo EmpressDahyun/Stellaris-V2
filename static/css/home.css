@@ -1,0 +1,40 @@
+.navbar a
+{
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+}
+
+#titletext
+{
+    font-family: 'Kaushan Script', cursive;
+}
+
+body 
+{
+    background-color: antiquewhite;
+}
+
+.carousel .carousel-item {
+    max-height:600px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    max-height:600px;
+}
+
+.footerstyle
+{
+    background-color: lightpink;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+
+#intro
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+

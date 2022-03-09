@@ -1,0 +1,30 @@
+.navbar a
+{
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+}
+
+body 
+{
+    background-color: antiquewhite;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.map
+{
+   width: 100%;
+}
+
+.divmap
+{
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.about
+{
+    font-size: 20px;
+}
+
+
